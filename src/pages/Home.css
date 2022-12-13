@@ -1,0 +1,224 @@
+.Cadastro {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    background-color: #fff6ed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .Home-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Home-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .Home-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    /* background-color: #9bd3ae; */
+    color: white;
+    font-weight: 600;
+    
+    /* background-color: #1379ed;
+    max-height: 5vh;
+    max-width: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white; */
+  }
+  
+  .Home-link {
+    color: #61dafb;
+  }
+  
+  @keyframes Home-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  p{
+    margin-top: 80px;
+    font-family: Roboto;
+    font-size: 30px;
+    color: #ffe180;
+    font-weight: 900;
+  }
+  div.tres {
+    margin-top: 120px;
+    width:1020px;
+    height:430px;
+    /* background-color: #a2b38b; */
+    
+    border-radius: 10px;
+    align-items: center;
+    border: 2px solid; 
+    border-color:  #a2b38b; 
+    }
+  
+    div.um{
+      margin-top: 80px;
+      margin-left: 80px;
+      margin-bottom: 80px;
+      width:170px;
+      height:200px;
+      background-color: #D8BFD8;
+      border-radius: 20px;
+      align-items: center;
+    }
+  
+    .imagem{
+      margin-top: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      width:90px;
+      height: 120px;
+  
+    }
+    .btn{
+      all: unset;
+      border-radius: 4px;
+      border: 1px solid #eee;
+      color:rgb(255, 253, 253);
+      background-color: #ebddcd;
+      height: 10px;
+      width: 100px;
+      margin: 0 25px 0px;
+      padding: 6px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.2s ease-in-out;
+      line-height: 24px;
+      background-color: #a0d995;
+      /* border-radius: 4px;
+      border-color: #a6fab6; */
+    }
+  
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .card {
+      all: unset;
+      border-radius: 4px;
+      border: 1px solid #eee;
+      color:#fffdfd;
+      background-color: #f2d9e6;
+      height: 280px;
+      width: 180px;
+      margin: 30px 20px 20px;
+      padding: 16px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.2s ease-in-out;
+      line-height: 24px;
+      color:rgb(15, 15, 16);
+    }
+  
+    .card-container .card:not(:last-child) {
+      margin-right: 0;
+    }
+  
+    .card.card-small {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      height: 13px;
+      width: 168px;
+    }
+  
+    .card-container .card:not(.highlight-card) {
+      cursor: pointer;
+    }
+  
+    .card-container .card:not(.highlight-card):hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+    }
+  
+    .card-container .card:not(.highlight-card):hover .material-icons path {
+      fill: rgb(105, 103, 103);
+    }
+  
+    .card.highlight-card {
+      background-color: #a2b38b;
+      color: white;
+      font-weight: 600;
+      border: none;
+      width: auto;
+      min-width: 30%;
+      position: relative;
+    }
+  
+    .card.card.highlight-card span {
+      margin-left: 60px;
+    }
+    .toolbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom:20px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      background-color: #ffffff;
+      color: white;
+      font-weight: 600;
+    }
+    span{
+      color:#1976d2;
+    }
+  
+    ul {
+      
+      width:100%; 
+      float:left; 
+      text-align:center; 
+  }
+  li {
+      padding-right: 20px;
+      display: inline-block;
+      list-style:none;
+  }
+  li .mymenu {
+     font-family: 'Roboto Regular';
+     font-size:1.3em;
+     text-decoration: none;
+     color:#4c4c4c;
+     -webkit-border-box: 0 1px 0 0 #4c4c4c;
+     border-bottom: 4px solid transparent;
+     /* -webkit-transition: border-bottom .3s linear; */
+  }
+  /* li .mymenu:hover {
+      
+      border-bottom:4px solid #4c4c4c;
+  } */
+
+
